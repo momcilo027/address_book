@@ -1,0 +1,228 @@
+body{
+  background-color: #333333;
+}
+.options{
+  position: fixed;
+  z-index: 1;
+  background-color: #2B2D2F;
+  height: 100%;
+  padding: 20px;
+}
+.optbtn{
+  background: #444444;
+  padding: 7px 30px 7px 30px;
+}
+.optbtn a{
+  border-radius: 0px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.optbtn:hover{
+  background: #8b0000;
+}
+.content{
+  padding-left: 18.5%;
+  margin-right: 0px;
+  padding-right: 0px;
+  color: white;
+}
+.drpbox{
+  background: #2B2D2F;
+  color: white;
+}
+.drpbox input{
+  text-align: center;
+  color: white;
+  background: rgba(255, 255, 0, 0);
+  border: none;
+  border-bottom: 2px solid #8b0000;
+  margin-top: -4.5%;
+  width: 100%;
+}
+.drpbox input:focus{
+  outline: #8b0000;
+}
+.drpbox label{
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+.savebtn{
+  background: #333333;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 0;
+}
+.savebtn:hover{
+  background: #8b0000;
+  color: white;
+}
+.hpos{
+  padding-top: 20px;
+}
+.hpos a{
+  color: white;
+  text-decoration: none;
+}
+.hpos a:hover{
+  color: #8b0000;
+  text-decoration: none;
+}
+.hpos_update{
+  padding-top: 20px;
+  padding-left: 50%;
+  padding-bottom: 20px;
+  background: #8b0000;
+}
+.hcolor{
+  color: #333333;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.btndel{
+  background: #2B2D2F;
+  color: white;
+  font-weight: bold;
+}
+.btndel:hover{
+  color: #8b0000;
+  border-bottom: 2px solid #8b0000;
+}
+.edit{
+  color: 	black;
+  text-decoration: none;
+}
+.edit:hover{
+  color: green;
+  text-decoration: none;
+}
+.remove{
+  text-decoration: none;
+  color: black;
+}
+.remove:hover{
+  color: red;
+  text-decoration: none;
+}
+.update{
+  background: #333333;
+  color: white;
+}
+.update input{
+  text-align: center;
+  color: white;
+  background: rgba(255, 255, 0, 0);
+  border: none;
+  border-bottom: 2px solid #8b0000;
+  margin-top: -4.5%;
+  width: 100%;
+}
+.update input:focus{
+  outline: #8b0000;
+}
+.update label{
+  color: black;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+.savebtn_rev{
+  background: #2B2D2F;
+  color: #8b0000;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 0;
+}
+.savebtn_rev:hover{
+  background: #8b0000;
+  color: white;
+}
+.actv_1{
+  width: 100%;
+  background: #bababa;
+  border-top-right-radius: 15px;
+  color: black;
+}
+.actv_1 a{
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.actv_2 a{
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.dltd_1 a{
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.dltd_2{
+  width: 100%;
+  border-top-left-radius: 15px;
+  background: #8b0000;
+  color: white;
+}
+.dltd_2 a{
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.maincnt{
+  background: #bababa;
+  width: 100%;
+}
+.maincnt_2{
+  background: #8b0000;
+  width: 100%;
+}
+.tbl{
+  width: 100%;
+}
+.tbl thead th{
+  padding-left: 0px;
+  margin-left: 0px;
+  font-size: 40px;
+  color: #8b0000;
+}
+.tbl tbody tr{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.tbl tbody td{
+  padding: 5px;
+}
+.tbl tbody tr:hover{
+  background: #8b0000;
+  color: white!important;
+}
+.tbl_2{
+  width: 100%;
+}
+.tbl_2 thead th{
+  padding-left: 0px;
+  margin-left: 0px;
+  font-size: 40px;
+  color: white;
+}
+.tbl_2 tbody tr{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.tbl_2 tbody td{
+  padding: 5px;
+}
+.tbl_2 tbody tr:hover{
+  background: #2B2D2F;
+  color: white!important;
+}
